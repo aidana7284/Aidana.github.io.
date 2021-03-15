@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title class="owner-name">#</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand owner-name" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="github" target="_blank">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- First Container -->
+    <div class="container-fluid bg-1">
+        <div class="container">
+
+            <h1 class="Covid Stats Project">Covid Stats Project</h1>
+            <p>This was a group project where we had to take information from an API in NYC Open Data and use objects as well as a for loop to tell the user a peice of information. My project takes information from the Covid statistics API in order to let the user put in a date then it will return the amount of Covid cases and Covid deaths on that specific date in NYC.</p>
+            <p>The main challenge I faced was making the if statement work. I had a hard time figuring how to make the user inputs work with the API so it would be able to call the right data set. I solved this problem by realizing the date needed to be in "2020-02-29T00:00:00.000" format so I prompted the user to put it into that format then added the "T00:00:00.000" to end during the if statement so that it would match one of the columns in the API. </p>
+            <p>My next steps are to continue working on my year long project using Babylon.js and also to continue practice with using APIs in javascript. </p>
+            <a href="#">Link about the project</a><br>
+
+            <!--EXAMPLE OF PREVIEW LINK-->
+            <a href="https://ide-433600afd0114da0a0bcd3b83e59fcdf-8081.cs50.ws/index.html">Preview of the project</a><br>
+            <!--EXAMPLE OF GITHUB LINK-->
+            <a href="https://github.com/aidana7284/COVID-stats-project">Github</a> <br> 
+
+            <img src="../img/covid-stats.png" class="img-fluid project-img">
+
+
+            <div class="row">
+
+                <!--
+                <div class="col-sm-6">
+                    Use this to...
+                </div>
+                <div class="col-sm-6">
+                    ...make two columns
+                </div>
+                -->
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <a href="#" target="_blank" id="fork"><img src="../img/fork.png"></a><br>
+        <a href="https://hstatsep.github.io" target="_blank"><img src="https://hstatsep.github.io/img/hstatsep-logo-small.png" id="sep"></a>
+    </footer>
+
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
